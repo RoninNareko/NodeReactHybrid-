@@ -1,0 +1,21 @@
+h1{
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+}
+.titleUsername{
+    background: red;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+}
+.ContainerPhotosPage{
+    position: relative;
+    height: 1000px;
+    background: yellow;
+}
+.UserPhotoscontainer{
+    background: green;
+    height: 500px;
+}

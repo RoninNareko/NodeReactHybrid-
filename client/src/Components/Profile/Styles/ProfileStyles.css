@@ -1,0 +1,100 @@
+h1{
+  color: #fff;
+}
+.Userinfocontainer{
+  background: none;
+  height: 810px;
+  padding-top: 10px;
+}
+.UserInformationBlock{
+  background: yellow;
+  height: 800px;
+  width: 500px;
+}
+.UserTopInfo{
+  border: 1px solid aqua;
+  background: coral;
+  width: 500px;
+  height: 798px;
+}
+.UserAvatarCont{
+  background: #18292E;
+  height: 350px;
+}
+.UserAvatarInfo
+{
+  position: relative;
+  top: 60px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #18292E;
+  height: 200px;
+}
+.circle {
+    margin-left: auto;
+    margin-right: auto;
+    
+    max-width: 100px; /* задаете свои размеры */
+    max-height: 100px;
+    overflow: hidden;
+    background: aqua;
+    padding: 5px; /* создание отступов */
+    border-radius: 50%;
+    /* не забываем о кроссбраузерности */
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border: #aaa 1px solid;
+    box-shadow: 0px 1px 1px 1px #bbb;   
+    -moz-box-shadow: 0px 1px 1px 1px #bbb;
+    -webkit-box-shadow: 0px 1px 1px 1px #bbb;
+}
+.PhootouploadForm{
+  position: absolute;
+  display: none;
+  z-index: 0;
+  top: -5000px;
+
+}
+.circle img {
+    display: block;
+    min-width:100%;
+    max-width: 100%;
+    min-height: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+.userinfotext, .userinfotextzvanie, .circle{
+  cursor: pointer;
+}
+.userinfotext{
+  position: relative;
+  left: 50px;
+  color: #fff;
+}
+.userinfotextzvanie{
+  color: #fff;
+  position: relative;
+  left: 48px;
+}
+
+.UserMenu{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.UserMenu li a{
+  text-decoration: none;
+  color: #fff;
+  background: #18292E;
+  padding: 20px;
+  border: 1px solid aqua;
+  border-left: none;
+  border-right: none;
+  display: block;
+}
+.UserMenu li a:hover{
+  color: coral;
+}
